@@ -2,8 +2,6 @@ package com.calculator.utility;
 
 public class dataReading {
 
-	static scanner sc = new scanner();
-
 	public static int getFirstNumber() {
 		System.out.println("Enter First Number");
 		int firstNumber = scanner.scan.nextInt();
