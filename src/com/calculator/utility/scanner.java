@@ -31,6 +31,8 @@ public class scanner {
 			System.out.println("Great!, You have choosen 'Find out even or odd number'");
 		else if (choice > 10)
 			System.out.println("Ohh!, You have made wrong choice");
+		else if (choice <= 0)
+			System.out.println("Ohh!, You have made wrong choice");
 
 	}
 
